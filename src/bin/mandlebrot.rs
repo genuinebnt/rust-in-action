@@ -40,6 +40,7 @@ fn mandlebrot_point(cx: f64, cy: f64, max_iters: usize) -> usize {
     max_iters
 }
 
+
 fn render_mandlebrot(escape_vals: Vec<Vec<usize>>) {
     for row in escape_vals {
         let mut line = String::with_capacity(row.len());
